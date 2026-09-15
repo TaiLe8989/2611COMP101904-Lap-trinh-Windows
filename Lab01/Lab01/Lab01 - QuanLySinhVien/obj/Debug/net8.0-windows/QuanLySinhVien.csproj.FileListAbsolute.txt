@@ -1,0 +1,32 @@
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.exe
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.deps.json
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.runtimeconfig.json
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.dll
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.pdb
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.Form1.resources
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.csproj.GenerateResource.cache
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.AssemblyInfoInputs.cache
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.AssemblyInfo.cs
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.csproj.CoreCompileInputs.cache
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.dll
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\obj\Debug\net8.0-windows\refint\QuanLySinhVien.dll
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.pdb
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.genruntimeconfig.cache
+C:\Users\Minh Tai\Desktop\Lập Trình Window\QuanLySinhVien\obj\Debug\net8.0-windows\ref\QuanLySinhVien.dll
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.exe
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.deps.json
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.runtimeconfig.json
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.dll
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\bin\Debug\net8.0-windows\QuanLySinhVien.pdb
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.Form1.resources
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.csproj.GenerateResource.cache
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.AssemblyInfoInputs.cache
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.AssemblyInfo.cs
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.csproj.CoreCompileInputs.cache
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.dll
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\obj\Debug\net8.0-windows\refint\QuanLySinhVien.dll
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.pdb
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\obj\Debug\net8.0-windows\QuanLySinhVien.genruntimeconfig.cache
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab01\Lab01 - QuanLySinhVien\obj\Debug\net8.0-windows\ref\QuanLySinhVien.dll
