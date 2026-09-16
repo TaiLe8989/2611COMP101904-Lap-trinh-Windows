@@ -1,8 +1,16 @@
 # Bài tập: Quản lý nhân viên (C# Console)
 
-**Môn học:** Lập trình hướng đối tượng
 **Ngày thực hiện:** 16/9/2026
+
 **Ngôn ngữ:** C# (.NET 8, Console App)
+
+2611COMP101904 - Lập trình Windows
+
+MSSV: 51.01.104.087
+
+Họ và Tên: Lê Minh Tài
+
+Lớp: 51.01.CNTT.C
 
 ---
 
@@ -59,22 +67,21 @@ Chương trình bắt đầu bằng việc yêu cầu nhập tối thiểu 5 nh�
 
 Em có thêm mục số 5 (thêm nhân viên mới) ngoài yêu cầu đề bài một chút, để tiện test chương trình mà không cần thoát ra nhập lại từ đầu.
 
-## 5. Cách chạy chương trình
-
-Cần máy đã cài .NET SDK 8.0. Mở terminal tại thư mục project rồi chạy:
-
-```
-dotnet run
-```
-
-Chương trình sẽ hiện tiếng Việt bình thường trên console (đã set `Console.OutputEncoding` sang UTF-8 để tránh lỗi font trên Windows).
-
-## 6. Một vài lưu ý / hạn chế
+## 5. Một vài lưu ý / hạn chế
 
 - Chương trình chưa có chức năng lưu file, mỗi lần chạy lại phải nhập lại từ đầu (đề không yêu cầu nên em chưa làm thêm phần này).
 - Validate dữ liệu còn ở mức cơ bản (chặn số âm, số ngày ngoài khoảng...), chưa xử lý hết các trường hợp nhập sai định dạng phức tạp.
 - Mã nhân viên hiện tại chưa kiểm tra trùng lặp khi thêm mới.
+  
+## 6. Ảnh ví dụ
+<img width="670" height="567" alt="Screenshot 2026-09-16 231037" src="https://github.com/user-attachments/assets/d89cda74-46f4-436a-9280-546ff8e97f38" />
+<img width="657" height="387" alt="Screenshot 2026-09-16 231131" src="https://github.com/user-attachments/assets/31022c9c-fe12-4d3e-aa78-69cb638a909c" />
+<img width="527" height="282" alt="Screenshot 2026-09-16 231238" src="https://github.com/user-attachments/assets/cb985d5f-0ec2-4ffc-9016-dd46fc4029d0" />
+<img width="486" height="307" alt="Screenshot 2026-09-16 231336" src="https://github.com/user-attachments/assets/eac31f8f-e778-4a84-b3c3-0d5d3cb83369" />
+<img width="607" height="976" alt="Screenshot 2026-09-16 231536" src="https://github.com/user-attachments/assets/b6fde0b9-bf54-492e-bb1d-facfefa5f382" />
+<img width="1312" height="432" alt="Screenshot 2026-09-16 231554" src="https://github.com/user-attachments/assets/774b92b3-cbb8-4b64-bed5-c45d745da3ac" />
+<img width="1226" height="307" alt="Screenshot 2026-09-16 231614" src="https://github.com/user-attachments/assets/90f52179-71fb-45d9-bbb0-06bc884ecc30" />
+<img width="1186" height="287" alt="Screenshot 2026-09-16 231628" src="https://github.com/user-attachments/assets/ddc6f44c-f91d-4b5d-80b3-6ce415b36110" />
+<img width="623" height="252" alt="Screenshot 2026-09-16 231642" src="https://github.com/user-attachments/assets/5573932b-3b92-4506-bb05-2f507a4c143e" />
+<img width="502" height="323" alt="Screenshot 2026-09-16 231655" src="https://github.com/user-attachments/assets/98b23751-2a0e-4c3e-9744-51ccc1266b39" />
 
----
-
-*Nộp bài: push code lên GitHub cá nhân, tạo folder BTLOP, code nằm trong folder con 16092026.*
