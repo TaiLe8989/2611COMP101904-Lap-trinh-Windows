@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Minh Tai\\Desktop\\L\u1EADp Tr\u00ECnh Window\\BTLOP\\16-9-2026\\QuanLyNhanVien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AABF3C7-AD6F-A3B9-1D7F-9F7A5DC94F0F}|QuanLyNhanVien.csproj|c:\\users\\minh tai\\desktop\\l\u1EADp tr\u00ECnh window\\btlop\\16-9-2026\\quanlynhanvien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AABF3C7-AD6F-A3B9-1D7F-9F7A5DC94F0F}|QuanLyNhanVien.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AABF3C7-AD6F-A3B9-1D7F-9F7A5DC94F0F}|QuanLyNhanVien.csproj|c:\\users\\minh tai\\desktop\\l\u1EADp tr\u00ECnh window\\btlop\\16-9-2026\\quanlynhanvien\\nhanvienvanphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AABF3C7-AD6F-A3B9-1D7F-9F7A5DC94F0F}|QuanLyNhanVien.csproj|solutionrelative:nhanvienvanphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AABF3C7-AD6F-A3B9-1D7F-9F7A5DC94F0F}|QuanLyNhanVien.csproj|c:\\users\\minh tai\\desktop\\l\u1EADp tr\u00ECnh window\\btlop\\16-9-2026\\quanlynhanvien\\nhanvienthoivu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AABF3C7-AD6F-A3B9-1D7F-9F7A5DC94F0F}|QuanLyNhanVien.csproj|solutionrelative:nhanvienthoivu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AABF3C7-AD6F-A3B9-1D7F-9F7A5DC94F0F}|QuanLyNhanVien.csproj|c:\\users\\minh tai\\desktop\\l\u1EADp tr\u00ECnh window\\btlop\\16-9-2026\\quanlynhanvien\\nhanvienkinhdoanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AABF3C7-AD6F-A3B9-1D7F-9F7A5DC94F0F}|QuanLyNhanVien.csproj|solutionrelative:nhanvienkinhdoanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AABF3C7-AD6F-A3B9-1D7F-9F7A5DC94F0F}|QuanLyNhanVien.csproj|c:\\users\\minh tai\\desktop\\l\u1EADp tr\u00ECnh window\\btlop\\16-9-2026\\quanlynhanvien\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AABF3C7-AD6F-A3B9-1D7F-9F7A5DC94F0F}|QuanLyNhanVien.csproj|solutionrelative:nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NhanVienVanPhong.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Tai\\Desktop\\L\u1EADp Tr\u00ECnh Window\\BTLOP\\16-9-2026\\QuanLyNhanVien\\NhanVienVanPhong.cs",
+              "RelativeDocumentMoniker": "NhanVienVanPhong.cs",
+              "ToolTip": "C:\\Users\\Minh Tai\\Desktop\\L\u1EADp Tr\u00ECnh Window\\BTLOP\\16-9-2026\\QuanLyNhanVien\\NhanVienVanPhong.cs",
+              "RelativeToolTip": "NhanVienVanPhong.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T15:45:25.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Tai\\Desktop\\L\u1EADp Tr\u00ECnh Window\\BTLOP\\16-9-2026\\QuanLyNhanVien\\NhanVien.cs",
+              "RelativeDocumentMoniker": "NhanVien.cs",
+              "ToolTip": "C:\\Users\\Minh Tai\\Desktop\\L\u1EADp Tr\u00ECnh Window\\BTLOP\\16-9-2026\\QuanLyNhanVien\\NhanVien.cs",
+              "RelativeToolTip": "NhanVien.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T15:43:52.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NhanVienKinhDoanh.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Tai\\Desktop\\L\u1EADp Tr\u00ECnh Window\\BTLOP\\16-9-2026\\QuanLyNhanVien\\NhanVienKinhDoanh.cs",
+              "RelativeDocumentMoniker": "NhanVienKinhDoanh.cs",
+              "ToolTip": "C:\\Users\\Minh Tai\\Desktop\\L\u1EADp Tr\u00ECnh Window\\BTLOP\\16-9-2026\\QuanLyNhanVien\\NhanVienKinhDoanh.cs",
+              "RelativeToolTip": "NhanVienKinhDoanh.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIBAwBkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T04:09:07.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NhanVienThoiVu.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Tai\\Desktop\\L\u1EADp Tr\u00ECnh Window\\BTLOP\\16-9-2026\\QuanLyNhanVien\\NhanVienThoiVu.cs",
+              "RelativeDocumentMoniker": "NhanVienThoiVu.cs",
+              "ToolTip": "C:\\Users\\Minh Tai\\Desktop\\L\u1EADp Tr\u00ECnh Window\\BTLOP\\16-9-2026\\QuanLyNhanVien\\NhanVienThoiVu.cs",
+              "RelativeToolTip": "NhanVienThoiVu.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T04:08:44.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Tai\\Desktop\\L\u1EADp Tr\u00ECnh Window\\BTLOP\\16-9-2026\\QuanLyNhanVien\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Minh Tai\\Desktop\\L\u1EADp Tr\u00ECnh Window\\BTLOP\\16-9-2026\\QuanLyNhanVien\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowHwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T04:05:02.809Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

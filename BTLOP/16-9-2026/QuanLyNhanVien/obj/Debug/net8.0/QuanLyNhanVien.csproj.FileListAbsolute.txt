@@ -1,0 +1,29 @@
+C:\Users\Minh Tai\Downloads\QuanLyNhanVien\bin\Debug\net8.0\QuanLyNhanVien.exe
+C:\Users\Minh Tai\Downloads\QuanLyNhanVien\bin\Debug\net8.0\QuanLyNhanVien.deps.json
+C:\Users\Minh Tai\Downloads\QuanLyNhanVien\bin\Debug\net8.0\QuanLyNhanVien.runtimeconfig.json
+C:\Users\Minh Tai\Downloads\QuanLyNhanVien\bin\Debug\net8.0\QuanLyNhanVien.dll
+C:\Users\Minh Tai\Downloads\QuanLyNhanVien\bin\Debug\net8.0\QuanLyNhanVien.pdb
+C:\Users\Minh Tai\Downloads\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minh Tai\Downloads\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.AssemblyInfoInputs.cache
+C:\Users\Minh Tai\Downloads\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.AssemblyInfo.cs
+C:\Users\Minh Tai\Downloads\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.csproj.CoreCompileInputs.cache
+C:\Users\Minh Tai\Downloads\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.dll
+C:\Users\Minh Tai\Downloads\QuanLyNhanVien\obj\Debug\net8.0\refint\QuanLyNhanVien.dll
+C:\Users\Minh Tai\Downloads\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.pdb
+C:\Users\Minh Tai\Downloads\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.genruntimeconfig.cache
+C:\Users\Minh Tai\Downloads\QuanLyNhanVien\obj\Debug\net8.0\ref\QuanLyNhanVien.dll
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\bin\Debug\net8.0\QuanLyNhanVien.exe
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\bin\Debug\net8.0\QuanLyNhanVien.deps.json
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\bin\Debug\net8.0\QuanLyNhanVien.runtimeconfig.json
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\bin\Debug\net8.0\QuanLyNhanVien.dll
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\bin\Debug\net8.0\QuanLyNhanVien.pdb
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.AssemblyInfoInputs.cache
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.AssemblyInfo.cs
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.csproj.CoreCompileInputs.cache
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.sourcelink.json
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.dll
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\obj\Debug\net8.0\refint\QuanLyNhanVien.dll
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.pdb
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\obj\Debug\net8.0\QuanLyNhanVien.genruntimeconfig.cache
+C:\Users\Minh Tai\Desktop\Lập Trình Window\BTLOP\16-9-2026\QuanLyNhanVien\obj\Debug\net8.0\ref\QuanLyNhanVien.dll
