@@ -1,7 +1,10 @@
 # BÁO CÁO LAB 04 — QUẢN LÝ SẢN PHẨM
 
 **Học phần:** COMP1019 – Lập trình trên Windows
-**Buổi học:** Buổi 4 – Exception, Delegate/Event, Func/Action, Generic
+- **Học phần:** COMP1019 - Lập trình trên Windows
+- **Sinh viên thực hiện:** Lê Minh Tài - MSSV: 51.01.104.087
+- **Lớp:** 51.01.CNTT.C
+  
 **Đề tài:** Chương trình Console C# quản lý sản phẩm bằng `Repository<T>`
 
 ---
@@ -123,3 +126,16 @@ có generic class `Repository<T>`, có event khi thêm/xóa thành công, có s�
 `Func<Product, bool>` trong tìm kiếm/lọc, và tách xử lý ra khỏi `Main` thông qua
 `ProductService` và `Repository<T>`. Cấu trúc phân lớp giúp code dễ đọc, dễ mở
 rộng thêm chức năng hoặc thêm loại thực thể khác trong tương lai.
+
+## 8. Ảnh minh họa sản phẩm
+<img width="987" height="731" alt="Screenshot 2026-09-26 225056" src="https://github.com/user-attachments/assets/aaf8b025-2442-40a6-8ce9-59d4b495f83a" />
+<img width="913" height="357" alt="Screenshot 2026-09-26 225255" src="https://github.com/user-attachments/assets/deb8f647-7cf8-43a4-8b90-feac15f16a5d" />
+<img width="842" height="327" alt="Screenshot 2026-09-26 225315" src="https://github.com/user-attachments/assets/fd8b7393-9525-4642-8841-fbb149f6a8c5" />
+<img width="878" height="345" alt="Screenshot 2026-09-26 225354" src="https://github.com/user-attachments/assets/21aff87b-8f6b-4fc6-9344-34b7d31aca29" />
+<img width="870" height="360" alt="Screenshot 2026-09-26 225509" src="https://github.com/user-attachments/assets/6c7308d1-d6e1-4a88-8d88-1d9f350f4c45" />
+<img width="857" height="703" alt="Screenshot 2026-09-26 225543" src="https://github.com/user-attachments/assets/b77242df-3302-4d27-b8da-5a6a02830f98" />
+<img width="575" height="301" alt="Screenshot 2026-09-26 230825" src="https://github.com/user-attachments/assets/d90db4fc-efd4-4104-a2f2-ca812b64f0bf" />
+<img width="573" height="292" alt="Screenshot 2026-09-26 231014" src="https://github.com/user-attachments/assets/1ed69980-619a-44f0-860c-3d23a8990bc7" />
+<img width="476" height="325" alt="Screenshot 2026-09-26 231033" src="https://github.com/user-attachments/assets/3f8d0798-509e-4865-9acf-c4ae2aa85546" />
+<img width="432" height="327" alt="Screenshot 2026-09-26 231055" src="https://github.com/user-attachments/assets/360e708c-5d15-48a7-9dd5-a30c9697a199" />
+<img width="630" height="347" alt="Screenshot 2026-09-26 231134" src="https://github.com/user-attachments/assets/4b88fd64-2f8c-48d0-a2dc-8be7f087ed4c" />
