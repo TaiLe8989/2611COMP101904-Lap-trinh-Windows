@@ -1,8 +1,9 @@
 # Lab 03 - Quản lý sinh viên bằng Console (C# OOP)
 
 - **Học phần:** COMP1019 - Lập trình trên Windows
-- **Sinh viên thực hiện:** [Họ tên] - MSSV: [MSSV]
-- **Công cụ:** Visual Studio, Console App C# (.NET 6 trở lên)
+- **Sinh viên thực hiện:** Lê Minh Tài - MSSV: 51.01.104.087
+- **Lớp:** 51.01.CNTT.C
+
 
 ## 1. Giới thiệu
 
@@ -62,13 +63,7 @@ Lab03_QuanLySinhVienOOP
 - **Xử lý nhập sai:** dùng `TryParse` và `TryParseExact` trong vòng lặp, nhập sai thì báo lỗi và cho nhập lại nên chương trình không bị dừng. Điểm nhận cả dấu chấm lẫn dấu phẩy (8.2 hoặc 8,2).
 - **Tiếng Việt:** đặt `Console.OutputEncoding` và `Console.InputEncoding` là UTF-8 để hiển thị có dấu.
 
-## 6. Cách chạy
-
-1. Tạo project Console App (C#) tên `Lab03_QuanLySinhVienOOP` trong Visual Studio.
-2. Thêm 4 file `.cs` vào project, thay thế `Program.cs` mặc định.
-3. Nhấn Ctrl + F5 để chạy.
-
-## 7. Kiểm thử
+## 6. Kiểm thử
 
 Cột "Kết quả thực tế" điền lại sau khi chạy chương trình.
 
@@ -82,6 +77,19 @@ Cột "Kết quả thực tế" điền lại sau khi chạy chương trình.
 | 6 | Lọc sinh viên đạt | Chỉ in sinh viên có điểm từ 5 trở lên | |
 | 7 | Nhập chữ ở chỗ nhập điểm hoặc chọn menu | Báo lỗi, không bị dừng chương trình | |
 
-## 8. Nhận xét
-
-[Phần này bạn tự viết: khó khăn gặp phải khi làm, phần nào em thấy dễ hiểu / khó hiểu, nếu có thời gian sẽ cải tiến gì, ví dụ lưu dữ liệu ra file.]
+## 7. Ảnh ví dụ chương trình
+<img width="456" height="466" alt="Screenshot 2026-09-20 123944" src="https://github.com/user-attachments/assets/143b5bc8-6393-4e49-aef9-d4d60ccb5ef5" />
+<img width="932" height="478" alt="Screenshot 2026-09-20 124337" src="https://github.com/user-attachments/assets/3bc0439f-1c56-44d1-83f9-9d2dd038cd7d" />
+<img width="741" height="285" alt="Screenshot 2026-09-20 125152" src="https://github.com/user-attachments/assets/90ec4014-902c-42f8-8959-d6ae7a17b1bc" />
+<img width="940" height="168" alt="Screenshot 2026-09-20 124602" src="https://github.com/user-attachments/assets/c8dabfd0-3f49-4c73-a767-f92b5ca03948" />
+<img width="940" height="168" alt="Screenshot 2026-09-20 124602" src="https://github.com/user-attachments/assets/3ef8a5c2-afd5-4eff-b795-a7cc1818088b" />
+<img width="735" height="246" alt="Screenshot 2026-09-20 124633" src="https://github.com/user-attachments/assets/2608932d-df8e-4ed2-b371-249e7c54d523" />
+<img width="933" height="416" alt="Screenshot 2026-09-20 124726" src="https://github.com/user-attachments/assets/1f5b549d-cdfb-4bec-b556-3410a0a79a57" />
+<img width="755" height="282" alt="Screenshot 2026-09-20 125330" src="https://github.com/user-attachments/assets/0e6476b7-5620-445d-b25d-e6eefc9bc839" />
+<img width="746" height="458" alt="Screenshot 2026-09-20 125352" src="https://github.com/user-attachments/assets/7bb4bd2e-b8e2-4b20-88fc-518c40e014d0" />
+<img width="536" height="137" alt="Screenshot 2026-09-20 125412" src="https://github.com/user-attachments/assets/6e0fd8ff-1131-42ac-8258-cc0d701ad858" />
+<img width="760" height="605" alt="Screenshot 2026-09-20 125447" src="https://github.com/user-attachments/assets/f167bdf9-89de-431c-a238-96d283bdb87e" />
+<img width="615" height="542" alt="Screenshot 2026-09-20 170229" src="https://github.com/user-attachments/assets/104da1a1-dce6-4507-86f0-671e5242e75d" />
+<img width="766" height="406" alt="Screenshot 2026-09-20 170321" src="https://github.com/user-attachments/assets/93c29579-aba3-4a17-a641-9ed6c6ae7757" />
+<img width="988" height="377" alt="Screenshot 2026-09-20 171118" src="https://github.com/user-attachments/assets/d324d65a-a5ae-4deb-8fd6-6ed5a69f0c14" />
+<img width="483" height="142" alt="Screenshot 2026-09-20 171349" src="https://github.com/user-attachments/assets/2a23727a-cde5-4aae-88a2-58dc49d76cd7" />
