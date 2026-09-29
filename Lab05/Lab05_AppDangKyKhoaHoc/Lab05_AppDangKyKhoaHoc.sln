@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37027.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab05_AppDangKyKhoaHoc", "Lab05_AppDangKyKhoaHoc.csproj", "{FF3160D0-05C2-493B-BAA9-BCD2AEA3A81F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF3160D0-05C2-493B-BAA9-BCD2AEA3A81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF3160D0-05C2-493B-BAA9-BCD2AEA3A81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF3160D0-05C2-493B-BAA9-BCD2AEA3A81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF3160D0-05C2-493B-BAA9-BCD2AEA3A81F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBB199F8-1408-4299-A1A9-DC99DEFCEF12}
+	EndGlobalSection
+EndGlobal
