@@ -1,8 +1,10 @@
 # BÁO CÁO LAB 06 – WINDOWS FORMS NÂNG CAO VÀ DATAGRIDVIEW
 
-**Môn học:** COMP1019 – Lập trình trên Windows
-**Đề tài:** ProductManager – Ứng dụng quản lý sản phẩm
-**Sinh viên:** ……………………………… **MSSV:** ………………  **Lớp:** ………………
+**2611COMP101904 - Lập trình Windows
+-**MSSV:** 51.01.104.087
+-**Họ và Tên:** Lê Minh Tài
+-**Lớp:** 51.01.CNTT.C
+
 
 ---
 
@@ -89,19 +91,10 @@ Lỗi hiển thị bằng `ErrorProvider` tại control sai, kèm một `Message
 | TC08 | Chọn ảnh rồi chọn dòng khác và quay lại | Ảnh hiển thị đúng theo từng sản phẩm |
 
 ## 9. Hình ảnh minh họa
+<img width="1161" height="897" alt="Screenshot 2026-10-07 233403" src="https://github.com/user-attachments/assets/49c14cdd-7226-404c-afdb-516d557264ba" />
+<img width="1167" height="912" alt="Screenshot 2026-10-07 233524" src="https://github.com/user-attachments/assets/c6ae68ef-6a0c-41c1-8197-55f42c588169" />
+<img width="1163" height="907" alt="Screenshot 2026-10-07 233547" src="https://github.com/user-attachments/assets/c05579d2-7f19-4458-acd1-b55f68a261ca" />
+<img width="1160" height="902" alt="Screenshot 2026-10-07 233608" src="https://github.com/user-attachments/assets/0ab565b7-08ce-402a-9c98-0925d0cafc55" />
+<img width="1166" height="905" alt="Screenshot 2026-10-07 233627" src="https://github.com/user-attachments/assets/085f5f23-0d90-471e-bb0d-0783da76752d" />
+<img width="1172" height="898" alt="Screenshot 2026-10-07 233713" src="https://github.com/user-attachments/assets/9e80f2d5-4b47-4e45-a0d2-0233a0ebb639" />
 
-> Chèn ảnh chụp màn hình vào đây (ví dụ lưu trong thư mục `images/`):
-> - Giao diện chính
-> - Báo lỗi `ErrorProvider`
-> - Hộp thoại xác nhận xóa
-> - Kết quả tìm kiếm
-> - Chọn ảnh và hiển thị trong `PictureBox`
-
-## 10. Hướng dẫn chạy
-
-Mở `ProductManager.csproj` bằng Visual Studio 2022 (.NET 8) rồi nhấn **F5**.
-Nếu dùng project .NET Framework có sẵn, chép 4 file `.cs` vào project.
-
-## 11. Kết luận
-
-Ứng dụng đáp ứng đủ yêu cầu của đề: giao diện đầy đủ, thêm/sửa/xóa/tìm kiếm/làm mới hoạt động trên dữ liệu trong bộ nhớ, kiểm tra dữ liệu bằng `ErrorProvider`, có thao tác nhanh bằng menu, toolbar, menu chuột phải và phím tắt.
