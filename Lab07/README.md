@@ -1,9 +1,10 @@
 # BÁO CÁO BÀI LAB 07 – SDI, MDI VÀ ỨNG DỤNG NHIỀU FORM TRONG C# WINFORMS
 
-**Môn học:** COMP1019 – Lập trình trên Windows
-**Đề tài:** Xây dựng ứng dụng quản lý cửa hàng mini nhiều Form – **ShopManagerMini**
-**Sinh viên:** _(điền họ và tên)_  **Lớp:** _(điền lớp)_
-**Hình thức:** Cá nhân  **Công nghệ:** C# WinForms, .NET 8, dữ liệu lưu trong bộ nhớ (`BindingList<T>`)
+2611COMP101904 - Lập trình Windows
+- **MSSV:** 51.01.104.087
+- **Họ và Tên:** Lê Minh Tài
+- **Lớp:** 51.01.CNTT.C
+
 
 ---
 
@@ -112,3 +113,12 @@ Hàm `OpenChild<T>` duyệt `MdiChildren`. Nếu đã có Form kiểu `T` thì c
 
 **5. Khi nào nên dùng constructor, khi nào nên dùng property để truyền dữ liệu giữa các Form?**
 Dùng **constructor** cho dữ liệu bắt buộc, cần có ngay khi Form được tạo (ví dụ `FrmMain(User)`, `FrmProduct(BindingList<Product>)`). Dùng **property** cho dữ liệu tùy chọn, hoặc cần lấy kết quả trả về sau khi Form xử lý xong (ví dụ `FrmLogin.CurrentUser`).
+
+## 8. Ảnh minh họa 
+<img width="795" height="523" alt="Screenshot 2026-10-11 224248" src="https://github.com/user-attachments/assets/754979af-d4b9-43a1-bb72-ddea67506aa9" />
+<img width="793" height="522" alt="Screenshot 2026-10-11 224344" src="https://github.com/user-attachments/assets/daa47e09-8320-4938-9b3f-54ea0bfaf5fe" />
+<img width="793" height="521" alt="Screenshot 2026-10-11 224357" src="https://github.com/user-attachments/assets/25e392b1-8959-447a-970a-d4b5ded826ea" />
+<img width="787" height="517" alt="Screenshot 2026-10-11 224505" src="https://github.com/user-attachments/assets/43ca42c4-8df4-4634-9946-2f8c344bb33d" />
+<img width="793" height="518" alt="Screenshot 2026-10-11 224733" src="https://github.com/user-attachments/assets/39f3f907-4b42-4ab0-b209-845d679a14a6" />
+<img width="792" height="521" alt="Screenshot 2026-10-11 224808" src="https://github.com/user-attachments/assets/f35a3f08-f82b-4dbc-8c3c-4a45357b1f4c" />
+<img width="788" height="518" alt="Screenshot 2026-10-11 224919" src="https://github.com/user-attachments/assets/f7858857-f910-4fdd-a5e5-aaeeb611646f" />
