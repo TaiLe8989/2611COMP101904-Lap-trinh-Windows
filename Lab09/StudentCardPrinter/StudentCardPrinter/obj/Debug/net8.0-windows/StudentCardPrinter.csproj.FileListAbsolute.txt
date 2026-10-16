@@ -1,0 +1,15 @@
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\bin\Debug\net8.0-windows\StudentCardPrinter.exe
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\bin\Debug\net8.0-windows\StudentCardPrinter.deps.json
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\bin\Debug\net8.0-windows\StudentCardPrinter.runtimeconfig.json
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\bin\Debug\net8.0-windows\StudentCardPrinter.dll
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\bin\Debug\net8.0-windows\StudentCardPrinter.pdb
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\obj\Debug\net8.0-windows\StudentCardPrinter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\obj\Debug\net8.0-windows\StudentCardPrinter.AssemblyInfoInputs.cache
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\obj\Debug\net8.0-windows\StudentCardPrinter.AssemblyInfo.cs
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\obj\Debug\net8.0-windows\StudentCardPrinter.csproj.CoreCompileInputs.cache
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\obj\Debug\net8.0-windows\StudentCardPrinter.sourcelink.json
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\obj\Debug\net8.0-windows\StudentCardPrinter.dll
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\obj\Debug\net8.0-windows\refint\StudentCardPrinter.dll
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\obj\Debug\net8.0-windows\StudentCardPrinter.pdb
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\obj\Debug\net8.0-windows\StudentCardPrinter.genruntimeconfig.cache
+C:\Users\Minh Tai\Desktop\Lập Trình Window\Lab09\StudentCardPrinter (1)\StudentCardPrinter\obj\Debug\net8.0-windows\ref\StudentCardPrinter.dll
