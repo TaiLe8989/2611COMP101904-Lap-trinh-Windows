@@ -1,12 +1,9 @@
 # BÁO CÁO LAB 08 – ỨNG DỤNG PAINT ĐƠN GIẢN BẰNG WINFORMS VÀ GDI+
 
-| Thông tin  | Chi tiết                          |
-| ---------- | --------------------------------- |
-| Môn học    | COMP1019 – Lập trình trên Windows |
-| Giảng viên | ThS. Lê Thanh Thoại               |
-| Buổi học   | Buổi 8 – Lab 08                   |
-| Project    | `COMP1019_Lab08_SimplePaint`      |
-| Công nghệ  | C#, Windows Forms, GDI+ (.NET 8)  |
+- **MSSV:** 51.01.104.087
+- **Họ và Tên:** Lê Minh Tài
+- **Lớp:** 51.01.CNTT.C
+
 
 ---
 
@@ -87,3 +84,11 @@ Chỉ gọi `Invalidate()` để yêu cầu vẽ lại, không gọi trực ti�
 - [ ] Chuột phải trên canvas: không tạo nét vẽ
 
 ## 8. Ảnh minh họa
+<img width="1101" height="711" alt="Screenshot 2026-10-16 001005" src="https://github.com/user-attachments/assets/6bbd15ce-e3a2-4775-bd44-9570366443c2" />
+<img width="1120" height="716" alt="Screenshot 2026-10-16 001025" src="https://github.com/user-attachments/assets/5dafe588-03d7-42d0-b7c6-28bae6d306d5" />
+<img width="1103" height="711" alt="Screenshot 2026-10-16 001703" src="https://github.com/user-attachments/assets/9d0313f6-2b5c-4bf8-b6eb-d0f6028d70db" />
+<img width="1107" height="707" alt="Screenshot 2026-10-16 001710" src="https://github.com/user-attachments/assets/e553c796-dec8-4b72-b9f7-b710013b2134" />
+<img width="1101" height="705" alt="Screenshot 2026-10-16 001910" src="https://github.com/user-attachments/assets/fa7b4b6e-45bc-4cf5-b6c8-500109bf4bad" />
+<img width="1106" height="715" alt="Screenshot 2026-10-16 001041" src="https://github.com/user-attachments/assets/4fab5d2d-5f8b-4498-8a74-282a28558af9" />
+<img width="1103" height="706" alt="Screenshot 2026-10-16 001055" src="https://github.com/user-attachments/assets/aa3f270e-07df-4d15-be66-fe4a45895c70" />
+
