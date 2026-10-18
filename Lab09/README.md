@@ -1,6 +1,10 @@
 # BÁO CÁO TÓM TẮT ĐỒ ÁN
 ## ỨNG DỤNG THIẾT KẾ VÀ IN THẺ SINH VIÊN (LAB 09 - WINFORMS)
 
+- **MSSV:** 51.01.104.087
+- **Họ và Tên:** Lê Minh Tài
+- **Lớp:** 51.01.CNTT.C
+
 ---
 
 ### 1. TỔNG QUAN ĐỒ ÁN
@@ -67,3 +71,15 @@
 3. Nhập mã sinh viên, tên sinh viên, chọn Khoa, Khóa học và chọn file Ảnh đại diện (`.jpg`, `.png`).
 4. Quan sát khung **Xem trước** bên phải tự động cập nhật.
 5. Nhấn **Xem trước** để mở cửa sổ in hoặc nhấn **In** để xuất file PDF/In thẻ.
+
+---
+
+### 6. ẢNH MẪU MINH HỌA
+<img width="991" height="723" alt="Screenshot 2026-10-16 221541" src="https://github.com/user-attachments/assets/76afc09e-8974-4b06-a29c-b9d4d0b41c8e" />
+<img width="995" height="726" alt="Screenshot 2026-10-16 221611" src="https://github.com/user-attachments/assets/62e83766-13ec-4bb6-afa9-34fc185f7f4d" />
+<img width="996" height="727" alt="Screenshot 2026-10-16 221555" src="https://github.com/user-attachments/assets/362c2123-f6d2-4081-b179-e795b8228e99" />
+<img width="997" height="730" alt="Screenshot 2026-10-16 221654" src="https://github.com/user-attachments/assets/623b8efe-b486-4e8e-a4f4-c5a0701b1f5c" />
+<img width="992" height="728" alt="Screenshot 2026-10-16 221709" src="https://github.com/user-attachments/assets/8ca05589-c85c-4fc9-aa77-b07fe1184d14" />
+<img width="1905" height="612" alt="Screenshot 2026-10-16 221747" src="https://github.com/user-attachments/assets/51cf6afd-3bc4-4833-a86b-40289de3e80a" />
+<img width="996" height="725" alt="Screenshot 2026-10-16 221802" src="https://github.com/user-attachments/assets/ec37e082-7887-4a36-bef6-6711f00c340a" />
+<img width="1002" height="726" alt="Screenshot 2026-10-16 221625" src="https://github.com/user-attachments/assets/cb89a74d-c91e-4e58-9760-1507f8f8611d" />
