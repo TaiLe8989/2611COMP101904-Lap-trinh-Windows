@@ -1,8 +1,8 @@
 # BÁO CÁO LAB 11 – ADO.NET VÀ CRUD VỚI SQL SERVER (QUẢN LÝ LỚP HỌC)
 
-**Môn học:** COMP1019 – Lập trình trên Windows
-**Sinh viên:** ……………………………… **MSSV:** ………………… **Lớp:** …………………
-**Công cụ:** Visual Studio 2022, .NET 8 Windows Forms, SQL Server + SSMS, Microsoft.Data.SqlClient
+- **MSSV:** 51.01.104.087
+- **Họ và Tên:** Lê Minh Tài
+- **Lớp:** 51.01.CNTT.C
 
 ---
 
@@ -85,15 +85,8 @@ COMP1019_Buoi11_Lab11
 └── README.md
 ```
 
-## 7. Cách chạy
-1. Mở SSMS, chạy `Database/01_CreateDatabase.sql` rồi `Database/02_InsertSampleData.sql`.
-2. Mở file `.csproj` bằng Visual Studio 2022, restore NuGet (`Microsoft.Data.SqlClient`), nhấn **F5**.
-
-**Connection string (máy cá nhân):**
-```
-Data Source=.;Initial Catalog=EduManagerDB;Integrated Security=True;TrustServerCertificate=True
-```
-Nếu dùng SQL Express, đổi thành `Data Source=.\SQLEXPRESS` (biến `connectionString` trong `FrmLop.cs`).
-
-## 8. Kết luận
-Bài lab đã xây dựng Form quản lý lớp học kết nối trực tiếp SQL Server bằng ADO.NET, thực hiện đầy đủ thêm, sửa, xóa, tìm kiếm với `SqlParameter`. Chương trình kiểm tra dữ liệu nhập, chặn trùng mã và chặn xóa lớp đang có sinh viên, qua đó đảm bảo toàn vẹn dữ liệu của EduManagerDB. Code được tách hàm rõ ràng, có xử lý lỗi bằng try-catch.
+## 7. Ảnh mẫu minh họa 
+<img width="1015" height="807" alt="Screenshot 2026-10-18 222323" src="https://github.com/user-attachments/assets/60e1ebe2-ff61-4920-b59e-f68fa7b5d8fc" />
+<img width="1013" height="806" alt="Screenshot 2026-10-18 222427" src="https://github.com/user-attachments/assets/278b33de-2398-4b21-aa6c-97b4e7c62450" />
+<img width="1471" height="455" alt="Screenshot 2026-10-18 223207" src="https://github.com/user-attachments/assets/42e4668d-88f0-4b06-bda1-343484bf080c" />
+<img width="1012" height="801" alt="Screenshot 2026-10-18 223249" src="https://github.com/user-attachments/assets/f42215e0-f1e0-4752-923c-db658825da41" />
