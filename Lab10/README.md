@@ -1,8 +1,9 @@
 # BÁO CÁO LAB 10 – THIẾT KẾ VÀ CÀI ĐẶT CSDL EDUMANAGERDB
 
-**Môn học:** COMP1019 – Lập trình trên Windows
-**Sinh viên:** ……………………………… **MSSV:** ………………… **Lớp:** …………………
-**Công cụ:** SQL Server + SQL Server Management Studio (SSMS 22)
+- **MSSV:** 51.01.104.087
+- **Họ và Tên:** Lê Minh Tài
+- **Lớp:** 51.01.CNTT.C
+- **Công cụ:** SQL Server + SQL Server Management Studio (SSMS 22)
 
 ---
 
@@ -65,12 +66,9 @@ Kiểm thử thêm: giới tính ngoài Nam/Nữ (câu 13) và trùng khóa chí
 - Sau câu 5 và 6, lớp CNTT01 có 3 sinh viên, CNTT02 có 1, SPTIN01 có 2; câu 10 chỉ hiển thị CNTT01 và SPTIN01.
 - Các lệnh sai ở câu 11–14 đều bị SQL Server từ chối (vi phạm FOREIGN KEY / CHECK / PRIMARY KEY), chứng tỏ ràng buộc hoạt động đúng.
 
-### Ảnh chụp kết quả
-> Chèn ảnh chụp tại đây: câu 2, 8, 9, 10 (tab Results) và câu 11, 12 (tab Messages).
 
-## 7. Cách chạy
-Mở SSMS và chạy lần lượt: `01_CreateDatabase.sql` → `02_InsertSampleData.sql` → `03_Queries.sql`.
-Muốn chạy lại từ đầu, chạy lại file 01 (script tự xóa database cũ).
-
-## 8. Kết luận
-Bài lab đã xây dựng hoàn chỉnh CSDL EduManagerDB với khóa chính, khóa ngoại và các ràng buộc hợp lý. Các truy vấn SELECT, JOIN, GROUP BY, UPDATE, DELETE hoạt động đúng, và việc kiểm thử cho thấy CSDL ngăn được dữ liệu sai, bảo đảm tính toàn vẹn dữ liệu.
+## 7. Ảnh mẫu minh họa 
+<img width="1473" height="510" alt="Screenshot 2026-10-18 173807" src="https://github.com/user-attachments/assets/c2589a38-574d-484e-ba88-c60cafaae664" />
+<img width="1438" height="457" alt="Screenshot 2026-10-18 173748" src="https://github.com/user-attachments/assets/6d1aff52-8523-4e19-a80d-89c304a5b899" />
+<img width="1462" height="522" alt="Screenshot 2026-10-18 173829" src="https://github.com/user-attachments/assets/ce267aa4-90ba-4613-b237-39251dcc857e" />
+<img width="1458" height="527" alt="Screenshot 2026-10-18 173820" src="https://github.com/user-attachments/assets/5f9d58ba-c0d8-470b-8bf3-ca5c377a1be9" />
