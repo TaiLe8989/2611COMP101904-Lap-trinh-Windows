@@ -1,9 +1,10 @@
-# BÁO CÁO BÀI LAB BUỔI 5 – WINDOWS FORMS CƠ BẢN
+# BÁO CÁO BÀI LAB BUỔI 5 – WINDOWS FORMS CƠ BẢN (ĐÃ NỘP NGÀY 29/9 - CẬP NHẬT MỚI NHẤT 16/10) <img width="767" height="55" alt="Screenshot 2026-10-18 230132" src="https://github.com/user-attachments/assets/6cf5f1c4-72cb-4ea6-a3dc-467844a464e0" />
 
-**Học phần:** COMP1019 – Lập trình trên Windows
-**Giảng viên:** ThS. Lê Thanh Thoại – Khoa Công nghệ Thông tin, HCMUE
-**Sinh viên thực hiện:** `<Họ và tên>` – MSSV: `<Mã số sinh viên>` – Lớp: `<Lớp>`
-**Đề tài:** Ứng dụng đăng ký khóa học ngắn hạn (`Lab05_AppDangKyKhoaHoc`)
+- **MSSV:** 51.01.104.087
+- **Họ và Tên:** Lê Minh Tài
+- **Lớp:** 51.01.CNTT.C
+
+
 
 ---
 
@@ -99,58 +100,9 @@ Lab05_AppDangKyKhoaHoc/
 └── Lab05_AppDangKyKhoaHoc.csproj
 ```
 
-## 7. Hướng dẫn chạy
-
-1. Clone repository về máy.
-2. Mở file `Lab05_AppDangKyKhoaHoc.sln` bằng **Visual Studio 2022**.
-3. Nhấn `Ctrl + Shift + B` để build, sau đó nhấn `F5` để chạy.
-
-## 8. Kết quả chạy thử
-
-> Chèn ảnh chụp màn hình vào thư mục `images/` rồi đổi đúng tên file bên dưới.
-
-**Hình 1 – Giao diện khi mở chương trình**
-
-![Giao diện chính](images/01-giao-dien.png)
-
-**Hình 2 – Thay đổi khóa học / số tháng, tổng tiền tự cập nhật**
-
-![Tính học phí](images/02-tinh-hoc-phi.png)
-
-**Hình 3 – Báo lỗi khi để trống họ tên hoặc số điện thoại**
-
-![Báo lỗi bỏ trống](images/03-bao-loi-bo-trong.png)
-
-**Hình 4 – Báo lỗi số điện thoại không đúng định dạng**
-
-![Báo lỗi số điện thoại](images/04-bao-loi-sdt.png)
-
-**Hình 5 – Phiếu đăng ký khi nhập đầy đủ**
-
-![Phiếu đăng ký](images/05-phieu-dang-ky.png)
-
-**Hình 6 – Sau khi bấm Làm mới**
-
-![Làm mới](images/06-lam-moi.png)
-
-**Hình 7 – Hộp thoại xác nhận khi bấm Thoát**
-
-![Xác nhận thoát](images/07-xac-nhan-thoat.png)
-
-### Bảng kiểm thử
-
-| STT | Tình huống | Kết quả mong đợi | Kết quả |
-|---|---|---|---|
-| 1 | Mở chương trình | Khóa đầu tiên, Online, 1 tháng, tổng tiền 800,000 VND | Đạt |
-| 2 | Chọn Python, 3 tháng | Tổng tiền 1,950,000 VND | Đạt |
-| 3 | Để trống họ tên, bấm Đăng ký | Báo "Vui lòng nhập họ tên!" | Đạt |
-| 4 | Để trống số điện thoại, bấm Đăng ký | Báo "Vui lòng nhập số điện thoại!" | Đạt |
-| 5 | Nhập số điện thoại 9 số | Báo "Số điện thoại không đúng định dạng, yêu cầu nhập lại" | Đạt |
-| 6 | Gõ chữ vào ô số điện thoại | Ký tự chữ bị chặn | Đạt |
-| 7 | Nhập đầy đủ hợp lệ, bấm Đăng ký | Hiện phiếu đăng ký đầy đủ thông tin | Đạt |
-| 8 | Bấm Làm mới | Form trở về trạng thái ban đầu, con trỏ ở ô họ tên | Đạt |
-| 9 | Bấm Thoát, chọn No / Yes | No: giữ Form; Yes: đóng Form | Đạt |
-
-## 9. Kết luận
-
-Bài lab đã hoàn thành các yêu cầu: thiết kế giao diện bằng các control cơ bản, đặt tên control theo quy ước, nạp dữ liệu khi Form Load, tính học phí tự động, kiểm tra dữ liệu khi đăng ký, và xử lý các nút Làm mới, Thoát. Qua bài lab, em nắm được cách làm việc với Form Designer và xử lý các sự kiện cơ bản trong Windows Forms.
+## 7. Ảnh mẫu minh họa
+<img width="328" height="323" alt="Screenshot 2026-09-29 230309" src="https://github.com/user-attachments/assets/5c6373b6-754f-42c7-b864-14716ec3524f" />
+<img width="1156" height="772" alt="Screenshot 2026-09-29 230327" src="https://github.com/user-attachments/assets/c4024d39-014f-4064-9baf-71456bc809b1" />
+<img width="1162" height="775" alt="Screenshot 2026-09-29 230349" src="https://github.com/user-attachments/assets/44eebd14-360e-4251-9796-9bbbf2be5a75" />
+<img width="1165" height="773" alt="Screenshot 2026-09-29 230413" src="https://github.com/user-attachments/assets/98fe0afb-b0d7-40bb-a2c2-18e4063ef3a8" />
+<img width="1156" height="770" alt="Screenshot 2026-09-29 230256" src="https://github.com/user-attachments/assets/416e625c-b690-4127-ab87-5b7a1bb53dbc" />
