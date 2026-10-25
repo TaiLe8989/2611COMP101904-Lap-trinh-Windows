@@ -6,12 +6,10 @@ using ShopManagerMini.Models;
 
 namespace ShopManagerMini.Forms
 {
-    /// <summary>
-    /// Form đăng nhập. Trả DialogResult.OK khi đăng nhập thành công.
-    /// </summary>
+
     public class FrmLogin : Form
     {
-        // Tài khoản mẫu
+
         private static readonly List<User> Accounts = new List<User>
         {
             new User("admin", "123", "Quản trị viên", "Admin"),
@@ -22,7 +20,7 @@ namespace ShopManagerMini.Forms
         private TextBox txtUsername, txtPassword;
         private Button btnLogin, btnExit;
 
-        /// <summary>Người dùng đăng nhập thành công (truyền sang FrmMain).</summary>
+    
         public User CurrentUser { get; private set; }
 
         public FrmLogin()
@@ -34,7 +32,7 @@ namespace ShopManagerMini.Forms
         {
             Text = "Đăng nhập - ShopManagerMini";
             Font = new Font("Segoe UI", 10F);
-            AutoScaleDimensions = new SizeF(96F, 96F); // co giãn theo DPI màn hình, tránh nhãn đè ô nhập
+            AutoScaleDimensions = new SizeF(96F, 96F); 
             AutoScaleMode = AutoScaleMode.Dpi;
             ClientSize = new Size(380, 250);
             FormBorderStyle = FormBorderStyle.FixedDialog;
@@ -97,7 +95,7 @@ namespace ShopManagerMini.Forms
                 Text = "Thoát",
                 Location = new Point(200, 180),
                 Size = new Size(110, 35),
-                DialogResult = DialogResult.Cancel // bấm Thoát thì đóng form, trả Cancel
+                DialogResult = DialogResult.Cancel
             };
 
             Controls.AddRange(new Control[]
@@ -105,8 +103,8 @@ namespace ShopManagerMini.Forms
                 lblTitle, lblUsername, txtUsername, lblPassword, txtPassword, btnLogin, btnExit
             });
 
-            AcceptButton = btnLogin; // Enter = Đăng nhập
-            CancelButton = btnExit;  // Esc = Thoát
+            AcceptButton = btnLogin; 
+            CancelButton = btnExit;  
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -114,7 +112,7 @@ namespace ShopManagerMini.Forms
             string username = txtUsername.Text.Trim();
             string password = txtPassword.Text;
 
-            // Bỏ trống username hoặc password
+      
             if (username == "" || password == "")
             {
                 MessageBox.Show("Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu!",
@@ -123,7 +121,7 @@ namespace ShopManagerMini.Forms
                 return;
             }
 
-            // Kiểm tra tài khoản mẫu
+         
             User found = Accounts.Find(u =>
                 string.Equals(u.Username, username, StringComparison.OrdinalIgnoreCase)
                 && u.Password == password);
@@ -138,7 +136,7 @@ namespace ShopManagerMini.Forms
             }
 
             CurrentUser = found;
-            DialogResult = DialogResult.OK; // đóng form và trả OK
+            DialogResult = DialogResult.OK; 
         }
     }
 }
