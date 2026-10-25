@@ -10,9 +10,9 @@ namespace StudentCardPrinter
     {
         private TextBox txtStudentId;
         private TextBox txtFullName;
-        private ComboBox cboFaculty;     // Vị trí 3
-        private TextBox txtCourse;       // Vị trí 4
-        private ComboBox cboClass;       // Vị trí 5
+        private ComboBox cboFaculty;    
+        private TextBox txtCourse;      
+        private ComboBox cboClass;      
         private DateTimePicker dtpBirthDate;
         private ComboBox cboGender;
         
@@ -44,50 +44,49 @@ namespace StudentCardPrinter
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
 
-            // --- GÓC TRÁI: NHÓM THÔNG TIN SINH VIÊN ---
+         
             GroupBox grbInfo = new GroupBox();
             grbInfo.Text = "Thông tin sinh viên";
             grbInfo.Location = new Point(12, 12);
             grbInfo.Size = new Size(460, 380);
             this.Controls.Add(grbInfo);
 
-            // 1. Mã sinh viên
+           
             Label lblStudentId = new Label { Text = "Mã sinh viên *:", Location = new Point(15, 30), AutoSize = true };
             txtStudentId = new TextBox { Location = new Point(120, 27), Size = new Size(320, 23) };
             grbInfo.Controls.AddRange(new Control[] { lblStudentId, txtStudentId });
 
-            // 2. Họ tên
+         
             Label lblFullName = new Label { Text = "Họ tên *:", Location = new Point(15, 70), AutoSize = true };
             txtFullName = new TextBox { Location = new Point(120, 67), Size = new Size(320, 23) };
             grbInfo.Controls.AddRange(new Control[] { lblFullName, txtFullName });
 
-            // 3. Khoa (Vị trí 3)
+           
             Label lblFaculty = new Label { Text = "Khoa:", Location = new Point(15, 110), AutoSize = true };
             cboFaculty = new ComboBox { Location = new Point(120, 107), Size = new Size(320, 23), DropDownStyle = ComboBoxStyle.DropDownList };
             grbInfo.Controls.AddRange(new Control[] { lblFaculty, cboFaculty });
 
-            // 4. Khóa học (Vị trí 4)
+           
             Label lblCourse = new Label { Text = "Khóa học:", Location = new Point(15, 150), AutoSize = true };
             txtCourse = new TextBox { Location = new Point(120, 147), Size = new Size(320, 23) };
             grbInfo.Controls.AddRange(new Control[] { lblCourse, txtCourse });
 
-            // 5. Lớp (Vị trí 5)
+            
             Label lblClass = new Label { Text = "Lớp:", Location = new Point(15, 190), AutoSize = true };
             cboClass = new ComboBox { Location = new Point(120, 187), Size = new Size(320, 23), DropDownStyle = ComboBoxStyle.DropDownList };
             grbInfo.Controls.AddRange(new Control[] { lblClass, cboClass });
 
-            // 6. Ngày sinh
+           
             Label lblBirthDate = new Label { Text = "Ngày sinh:", Location = new Point(15, 230), AutoSize = true };
             dtpBirthDate = new DateTimePicker { Location = new Point(120, 227), Size = new Size(320, 23), Format = DateTimePickerFormat.Short };
             grbInfo.Controls.AddRange(new Control[] { lblBirthDate, dtpBirthDate });
 
-            // 7. Giới tính
+           
             Label lblGender = new Label { Text = "Giới tính:", Location = new Point(15, 270), AutoSize = true };
             cboGender = new ComboBox { Location = new Point(120, 267), Size = new Size(320, 23), DropDownStyle = ComboBoxStyle.DropDownList };
             grbInfo.Controls.AddRange(new Control[] { lblGender, cboGender });
 
 
-            // --- GÓC TRÁI DƯỚI: NHÓM ẢNH ĐẠI DIỆN ---
             GroupBox grbAvatar = new GroupBox();
             grbAvatar.Text = "Ảnh đại diện";
             grbAvatar.Location = new Point(12, 405);
@@ -114,7 +113,7 @@ namespace StudentCardPrinter
             grbAvatar.Controls.Add(lblNoteImg);
 
 
-            // --- GÓC PHẢI: XEM TRƯỚC THẺ SINH VIÊN ---
+          
             GroupBox grbPreview = new GroupBox();
             grbPreview.Text = "Xem trước thẻ sinh viên";
             grbPreview.Location = new Point(485, 12);
@@ -128,7 +127,7 @@ namespace StudentCardPrinter
             grbPreview.Controls.Add(pnlCardPreview);
 
 
-            // --- THANH ĐIỀU KHIỂN DƯỚI CÙNG ---
+           
             btnClear = new Button { Text = "Làm mới", Location = new Point(12, 630), Size = new Size(90, 35) };
             btnPreviewPrint = new Button { Text = "Xem trước", Location = new Point(115, 630), Size = new Size(90, 35) };
             btnPrint = new Button { Text = "In", Location = new Point(220, 630), Size = new Size(90, 35) };
