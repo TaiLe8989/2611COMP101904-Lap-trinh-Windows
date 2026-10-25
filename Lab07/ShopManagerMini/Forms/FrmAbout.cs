@@ -4,12 +4,10 @@ using System.Windows.Forms;
 
 namespace ShopManagerMini.Forms
 {
-    /// <summary>
-    /// Form giới thiệu ứng dụng.
-    /// </summary>
+  
     public class FrmAbout : Form
     {
-        // TODO: sửa lại thông tin của bạn trước khi nộp
+
         private const string StudentName = "Họ và tên sinh viên";
         private const string ClassName = "Tên lớp";
 
