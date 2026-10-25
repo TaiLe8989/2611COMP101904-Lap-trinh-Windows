@@ -1,4 +1,4 @@
-# BÁO CÁO BÀI LAB 07 – SDI, MDI VÀ ỨNG DỤNG NHIỀU FORM TRONG C# WINFORMS
+# BÁO CÁO BÀI LAB 07 – SDI, MDI VÀ ỨNG DỤNG NHIỀU FORM TRONG C# WINFORMS (Đã nộp 16/10 - Cập nhật mới nhất 26/10)
 
 2611COMP101904 - Lập trình Windows
 - **MSSV:** 51.01.104.087
