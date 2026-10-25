@@ -7,9 +7,7 @@ using ShopManagerMini.Models;
 
 namespace ShopManagerMini.Forms
 {
-    /// <summary>
-    /// Quản lý khách hàng: thêm, sửa, xóa, tìm kiếm, hiển thị bằng DataGridView.
-    /// </summary>
+
     public class FrmCustomer : Form
     {
         private readonly BindingList<Customer> _customers;
@@ -37,7 +35,7 @@ namespace ShopManagerMini.Forms
             AutoScaleMode = AutoScaleMode.Dpi;
             ClientSize = new Size(820, 520);
 
-            // ===== Nhóm thông tin khách hàng =====
+          
             grpInfo = new GroupBox
             {
                 Name = "grpInfo",
@@ -71,7 +69,7 @@ namespace ShopManagerMini.Forms
                 lblId, txtId, lblFullName, txtFullName, lblPhone, txtPhone, lblType, cboType
             });
 
-            // ===== Hàng nút chức năng =====
+  
             pnlButtons = new Panel { Name = "pnlButtons", Dock = DockStyle.Top, Height = 50 };
             btnAdd = MakeButton("btnAdd", "Thêm", 20);
             btnEdit = MakeButton("btnEdit", "Sửa", 140);
@@ -79,14 +77,14 @@ namespace ShopManagerMini.Forms
             btnRefresh = MakeButton("btnRefresh", "Làm mới", 380);
             pnlButtons.Controls.AddRange(new Control[] { btnAdd, btnEdit, btnDelete, btnRefresh });
 
-            // ===== Hàng tìm kiếm =====
+       
             pnlSearch = new Panel { Name = "pnlSearch", Dock = DockStyle.Top, Height = 45 };
             lblSearch = new Label { Name = "lblSearch", Text = "Tìm kiếm (mã/tên/SĐT):", Location = new Point(20, 13), AutoSize = true };
             txtSearch = new TextBox { Name = "txtSearch", Location = new Point(210, 10), Size = new Size(230, 25) };
             btnSearch = MakeButton("btnSearch", "Tìm kiếm", 455);
             pnlSearch.Controls.AddRange(new Control[] { lblSearch, txtSearch, btnSearch });
 
-            // ===== DataGridView =====
+
             dgvCustomers = new DataGridView
             {
                 Name = "dgvCustomers",
@@ -111,7 +109,7 @@ namespace ShopManagerMini.Forms
             Controls.Add(pnlButtons);
             Controls.Add(grpInfo);
 
-            // ===== Sự kiện =====
+
             btnAdd.Click += btnAdd_Click;
             btnEdit.Click += btnEdit_Click;
             btnDelete.Click += btnDelete_Click;
@@ -135,7 +133,7 @@ namespace ShopManagerMini.Forms
             };
         }
 
-        // ================= Hiển thị =================
+   
 
         private void ShowAll()
         {
@@ -169,7 +167,7 @@ namespace ShopManagerMini.Forms
             cboType.SelectedItem = c.CustomerType;
         }
 
-        // ================= Kiểm tra dữ liệu nhập =================
+    
 
         private bool ValidateInput()
         {
@@ -199,7 +197,7 @@ namespace ShopManagerMini.Forms
             focusControl.Focus();
         }
 
-        // ================= Các chức năng =================
+     
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
