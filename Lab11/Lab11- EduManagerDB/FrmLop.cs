@@ -7,7 +7,7 @@ namespace COMP1019_Buoi11_Lab11
 {
     public partial class FrmLop : Form
     {
-        // Đổi Data Source nếu dùng SQL Express: .\SQLEXPRESS
+    
         private readonly string connectionString =
             @"Data Source=.;Initial Catalog=EduManagerDB;Integrated Security=True;TrustServerCertificate=True";
 
@@ -26,14 +26,14 @@ namespace COMP1019_Buoi11_Lab11
             InitializeComponent();
         }
 
-        // F1: tự động load danh sách lớp khi mở Form
+   
         private void FrmLop_Load(object sender, EventArgs e)
         {
             LoadKhoa();
             LoadData();
         }
 
-        // ---------- Load dữ liệu ----------
+
 
         private void LoadKhoa()
         {
@@ -87,7 +87,7 @@ namespace COMP1019_Buoi11_Lab11
             dgvLop.ClearSelection();
         }
 
-        // ---------- Hàm hỗ trợ ----------
+  
 
         private bool ValidateInput()
         {
@@ -152,9 +152,9 @@ namespace COMP1019_Buoi11_Lab11
             txtMaLop.Focus();
         }
 
-        // ---------- Sự kiện ----------
+  
 
-        // F2: chọn một dòng -> đưa dữ liệu lên TextBox, khóa mã lớp
+
         private void dgvLop_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex < 0) return;
@@ -163,10 +163,10 @@ namespace COMP1019_Buoi11_Lab11
             txtMaLop.Text = row.Cells["MaLop"].Value.ToString();
             txtTenLop.Text = row.Cells["TenLop"].Value.ToString();
             cboKhoa.SelectedValue = row.Cells["MaKhoa"].Value.ToString();
-            txtMaLop.ReadOnly = true;       // mã lớp là khóa chính, không cho sửa
+            txtMaLop.ReadOnly = true;      
         }
 
-        // F3: thêm lớp
+ 
         private void btnThem_Click(object sender, EventArgs e)
         {
             if (!ValidateInput()) return;
@@ -209,7 +209,7 @@ namespace COMP1019_Buoi11_Lab11
             }
         }
 
-        // F4: sửa lớp đang chọn
+
         private void btnSua_Click(object sender, EventArgs e)
         {
             if (!txtMaLop.ReadOnly)
@@ -256,7 +256,7 @@ namespace COMP1019_Buoi11_Lab11
             }
         }
 
-        // F5: xóa lớp (hỏi xác nhận, chặn lớp đang có sinh viên)
+   
         private void btnXoa_Click(object sender, EventArgs e)
         {
             string ma = txtMaLop.Text.Trim();
@@ -303,7 +303,7 @@ namespace COMP1019_Buoi11_Lab11
             }
             catch (SqlException ex) when (ex.Number == 547)
             {
-                // Lỗi khóa ngoại (phòng trường hợp dữ liệu thay đổi giữa lúc kiểm tra và xóa)
+          
                 MessageBox.Show("Không thể xóa lớp vì còn dữ liệu liên quan.", "Lỗi",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -314,7 +314,7 @@ namespace COMP1019_Buoi11_Lab11
             }
         }
 
-        // F6: tìm theo mã hoặc tên lớp (LIKE + parameter)
+      
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
             try
@@ -334,7 +334,6 @@ namespace COMP1019_Buoi11_Lab11
             }
         }
 
-        // F7: làm mới
         private void btnLamMoi_Click(object sender, EventArgs e)
         {
             ClearInput();
