@@ -1,14 +1,12 @@
 namespace ShopManagerMini.Models
 {
-    /// <summary>
-    /// Khách hàng của cửa hàng.
-    /// </summary>
+ 
     public class Customer
     {
-        public string Id { get; set; }          // Mã khách hàng
-        public string FullName { get; set; }    // Họ tên
-        public string Phone { get; set; }       // Số điện thoại
-        public string CustomerType { get; set; } // Loại khách hàng
+        public string Id { get; set; }          
+        public string FullName { get; set; }    
+        public string Phone { get; set; }       
+        public string CustomerType { get; set; } 
 
         public Customer() { }
 

@@ -11,7 +11,6 @@ namespace COMP1019_Lab08_SimplePaint
 {
     public class FrmPaint : Form
     {
-        // ===== Controls =====
         private readonly FlowLayoutPanel topPanel = new FlowLayoutPanel();
         private readonly DrawSurface canvas = new DrawSurface();
         private readonly ComboBox cboMode = new ComboBox();
@@ -26,24 +25,20 @@ namespace COMP1019_Lab08_SimplePaint
         private readonly Button btnSave = new Button();
         private readonly Label lblStatus = new Label();
 
-        // ===== Dữ liệu vẽ =====
         private readonly List<DrawItem> items = new List<DrawItem>();
         private DrawItem? currentItem;
         private bool isDrawing = false;
         private Color currentColor = Color.Black;
 
-        // ===== Nền canvas =====
+      
         private Color canvasBackColor = Color.White;
         private Bitmap? backgroundImage;
         private Point backgroundLocation = Point.Empty;
 
-        // ===== Lịch sử để lấy lại hình (Redo) sau Undo / Clear =====
+    
         private readonly Stack<RedoEntry> redoStack = new Stack<RedoEntry>();
 
-        /// <summary>
-        /// Một bước có thể lấy lại: một nét vừa Undo (1 phần tử),
-        /// hoặc toàn bộ nét vẽ + ảnh nền vừa bị Clear.
-        /// </summary>
+        
         private sealed class RedoEntry
         {
             public List<DrawItem> Items { get; }
@@ -65,14 +60,14 @@ namespace COMP1019_Lab08_SimplePaint
             Height = 700;
             MinimumSize = new Size(700, 400);
             StartPosition = FormStartPosition.CenterScreen;
-            KeyPreview = true; // để bắt phím tắt
+            KeyPreview = true; 
 
             BuildUserInterface();
             RegisterEvents();
             UpdateButtons();
         }
 
-        // ============================ Giao diện ============================
+       
         private void BuildUserInterface()
         {
             topPanel.Dock = DockStyle.Top;
@@ -126,7 +121,7 @@ namespace COMP1019_Lab08_SimplePaint
             lblStatus.TextAlign = ContentAlignment.MiddleLeft;
             lblStatus.Padding = new Padding(8, 0, 0, 0);
 
-            // Thứ tự Add quan trọng với Dock: canvas (Fill) thêm trước, sau đó Bottom, Top.
+         
             Controls.Add(canvas);
             Controls.Add(lblStatus);
             Controls.Add(topPanel);
@@ -159,7 +154,7 @@ namespace COMP1019_Lab08_SimplePaint
             KeyDown += FrmPaint_KeyDown;
         }
 
-        // ============================ Thuộc tính / tiện ích ============================
+      
         private DrawMode CurrentMode
         {
             get
@@ -176,7 +171,7 @@ namespace COMP1019_Lab08_SimplePaint
             btnColor.ForeColor = luminance > 0.5 ? Color.Black : Color.White;
         }
 
-        /// <summary>Bật/tắt các nút theo trạng thái dữ liệu hiện tại.</summary>
+     
         private void UpdateButtons()
         {
             btnUndo.Enabled = items.Count > 0;
@@ -185,7 +180,7 @@ namespace COMP1019_Lab08_SimplePaint
             btnRemoveImage.Enabled = backgroundImage != null;
         }
 
-        /// <summary>Hủy lịch sử Redo (khi có nét vẽ mới) và giải phóng ảnh nền đang giữ trong đó.</summary>
+    
         private void ClearRedoHistory()
         {
             foreach (RedoEntry entry in redoStack)
@@ -194,7 +189,7 @@ namespace COMP1019_Lab08_SimplePaint
             redoStack.Clear();
         }
 
-        // ============================ Màu vẽ / màu nền ============================
+
         private void BtnColor_Click(object? sender, EventArgs e)
         {
             using ColorDialog dialog = new ColorDialog();
@@ -220,7 +215,7 @@ namespace COMP1019_Lab08_SimplePaint
             }
         }
 
-        // ============================ Undo / Redo / Clear ============================
+
         private void BtnUndo_Click(object? sender, EventArgs e)
         {
             UndoLastItem();
@@ -259,7 +254,7 @@ namespace COMP1019_Lab08_SimplePaint
                 }
                 else
                 {
-                    // Người dùng đã mở ảnh nền khác sau khi Clear: giữ ảnh hiện tại.
+              
                     entry.Image.Dispose();
                 }
             }
@@ -280,16 +275,16 @@ namespace COMP1019_Lab08_SimplePaint
 
             if (result != DialogResult.Yes) return;
 
-            // Lưu lại toàn bộ để Redo có thể khôi phục
+          
             redoStack.Push(new RedoEntry(new List<DrawItem>(items), backgroundImage, backgroundLocation));
 
             items.Clear();
-            backgroundImage = null; // quyền sở hữu ảnh chuyển sang RedoEntry
+            backgroundImage = null;
             canvas.Invalidate();
             UpdateButtons();
         }
 
-        // ============================ Ảnh nền / lưu ảnh ============================
+    
         private void BtnOpenImage_Click(object? sender, EventArgs e)
         {
             using OpenFileDialog dialog = new OpenFileDialog
@@ -322,10 +317,7 @@ namespace COMP1019_Lab08_SimplePaint
             }
         }
 
-        /// <summary>
-        /// Co ảnh vừa khít canvas (giữ tỉ lệ, căn giữa). Ảnh được co một lần khi mở
-        /// để vị trí của các nét vẽ luôn khớp với ảnh, kể cả khi resize Form.
-        /// </summary>
+     
         private Bitmap FitImageToCanvas(Image source, out Point location)
         {
             Size area = canvas.ClientSize;
@@ -406,23 +398,23 @@ namespace COMP1019_Lab08_SimplePaint
             }
         }
 
-        // ============================ Phím tắt ============================
+   
         private void FrmPaint_KeyDown(object? sender, KeyEventArgs e)
         {
             if (!e.Control) return;
 
             switch (e.KeyCode)
             {
-                case Keys.Z when e.Shift:   // Ctrl+Shift+Z = Redo
+                case Keys.Z when e.Shift:  
                     RedoLastAction();
                     break;
-                case Keys.Z:                // Ctrl+Z = Undo
+                case Keys.Z:                
                     UndoLastItem();
                     break;
-                case Keys.Y:                // Ctrl+Y = Redo
+                case Keys.Y:                
                     RedoLastAction();
                     break;
-                case Keys.S:                // Ctrl+S = Lưu ảnh
+                case Keys.S:                
                     SaveDrawing();
                     break;
                 default:
@@ -433,7 +425,7 @@ namespace COMP1019_Lab08_SimplePaint
             e.SuppressKeyPress = true;
         }
 
-        // ============================ Xử lý chuột ============================
+    
         private void Canvas_MouseDown(object? sender, MouseEventArgs e)
         {
             if (e.Button != MouseButtons.Left) return;
@@ -478,7 +470,7 @@ namespace COMP1019_Lab08_SimplePaint
                 currentItem.Points.Add(e.Location);
 
             items.Add(currentItem);
-            ClearRedoHistory(); // có nét vẽ mới thì không còn nhánh Redo cũ
+            ClearRedoHistory(); 
 
             currentItem = null;
             isDrawing = false;
@@ -486,16 +478,13 @@ namespace COMP1019_Lab08_SimplePaint
             UpdateButtons();
         }
 
-        // ============================ Vẽ ============================
+    
         private void Canvas_Paint(object? sender, PaintEventArgs e)
         {
             RenderCanvas(e.Graphics);
         }
 
-        /// <summary>
-        /// Vẽ toàn bộ nội dung canvas: màu nền, ảnh nền, các nét đã vẽ và nét đang vẽ.
-        /// Dùng chung cho sự kiện Paint và chức năng lưu ảnh để kết quả giống hệt nhau.
-        /// </summary>
+     
         private void RenderCanvas(Graphics g)
         {
             g.Clear(canvasBackColor);
@@ -544,7 +533,7 @@ namespace COMP1019_Lab08_SimplePaint
 
             if (points.Count == 0) return;
 
-            // Chỉ click một điểm: vẽ chấm tròn
+         
             if (points.Count == 1)
             {
                 using SolidBrush brush = new SolidBrush(item.Color);
@@ -559,7 +548,7 @@ namespace COMP1019_Lab08_SimplePaint
             }
         }
 
-        /// <summary>Chuẩn hóa hình chữ nhật để kéo chuột theo mọi hướng đều hợp lệ.</summary>
+     
         private Rectangle GetRectangle(Point start, Point end)
         {
             int x = Math.Min(start.X, end.X);
@@ -570,7 +559,7 @@ namespace COMP1019_Lab08_SimplePaint
             return new Rectangle(x, y, width, height);
         }
 
-        // ============================ Giải phóng tài nguyên ============================
+      
         protected override void OnFormClosed(FormClosedEventArgs e)
         {
             backgroundImage?.Dispose();

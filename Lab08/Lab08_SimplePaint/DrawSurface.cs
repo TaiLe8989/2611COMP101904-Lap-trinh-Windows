@@ -3,7 +3,6 @@ using System.Windows.Forms;
 
 namespace COMP1019_Lab08_SimplePaint
 {
-    /// <summary>Panel tùy chỉnh bật DoubleBuffered để vẽ không bị nhấp nháy.</summary>
     public class DrawSurface : Panel
     {
         public DrawSurface()

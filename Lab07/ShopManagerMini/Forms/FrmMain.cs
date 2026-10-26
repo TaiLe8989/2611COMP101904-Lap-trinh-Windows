@@ -6,9 +6,7 @@ using ShopManagerMini.Models;
 
 namespace ShopManagerMini.Forms
 {
-    /// <summary>
-    /// Form chính dạng MDI Parent.
-    /// </summary>
+    
     public class FrmMain : Form
     {
         private MenuStrip menuMain;
@@ -22,7 +20,7 @@ namespace ShopManagerMini.Forms
         private User _currentUser;
         private bool _skipExitConfirm = false;
 
-        // Dữ liệu dùng chung trong bộ nhớ: đóng/mở lại Form con vẫn giữ nguyên dữ liệu
+      
         private readonly BindingList<Product> _products = new BindingList<Product>
         {
             new Product("SP001", "Nước suối Aquafina", "Đồ uống", 6000, 100),
@@ -36,9 +34,7 @@ namespace ShopManagerMini.Forms
             new Customer("KH002", "Trần Thị Bình", "0912345678", "VIP")
         };
 
-        /// <summary>
-        /// Nhận thông tin người dùng từ FrmLogin qua constructor.
-        /// </summary>
+       
         public FrmMain(User user)
         {
             _currentUser = user;
@@ -54,9 +50,9 @@ namespace ShopManagerMini.Forms
             AutoScaleMode = AutoScaleMode.Dpi;
             Size = new Size(1000, 650);
             StartPosition = FormStartPosition.CenterScreen;
-            IsMdiContainer = true; // bắt buộc: MDI Parent
+            IsMdiContainer = true; 
 
-            // ===== MenuStrip =====
+        
             mnuLogout = new ToolStripMenuItem("Đăng xuất") { Name = "mnuLogout" };
             mnuExit = new ToolStripMenuItem("Thoát") { Name = "mnuExit" };
             mnuSystem = new ToolStripMenuItem("Hệ thống") { Name = "mnuSystem" };
@@ -75,7 +71,7 @@ namespace ShopManagerMini.Forms
             menuMain.Items.AddRange(new ToolStripItem[] { mnuSystem, mnuCatalog, mnuHelp });
             MainMenuStrip = menuMain;
 
-            // ===== StatusStrip =====
+          
             lblUser = new ToolStripStatusLabel { Name = "lblUser" };
             lblRole = new ToolStripStatusLabel { Name = "lblRole" };
             lblTime = new ToolStripStatusLabel
@@ -90,13 +86,13 @@ namespace ShopManagerMini.Forms
             Controls.Add(statusMain);
             Controls.Add(menuMain);
 
-            // ===== Timer hiển thị giờ hiện tại =====
+       
             timerClock = new Timer { Interval = 1000 };
             timerClock.Tick += (s, e) => lblTime.Text = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
             timerClock.Start();
             lblTime.Text = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss");
 
-            // ===== Sự kiện =====
+         
             mnuLogout.Click += mnuLogout_Click;
             mnuExit.Click += (s, e) => Close(); // FormClosing sẽ hỏi xác nhận
             mnuProduct.Click += (s, e) => OpenChild(() => new FrmProduct(_products));
@@ -108,16 +104,13 @@ namespace ShopManagerMini.Forms
             FormClosing += FrmMain_FormClosing;
         }
 
-        /// <summary>Hiển thị tên người dùng và vai trò lên StatusStrip.</summary>
+       
         private void ShowUserInfo()
         {
             lblUser.Text = "Người dùng: " + _currentUser.FullName;
             lblRole.Text = "| Vai trò: " + _currentUser.Role;
         }
 
-        /// <summary>
-        /// Mở Form con MDI. Nếu Form cùng loại đang mở thì chỉ kích hoạt lại, không tạo mới.
-        /// </summary>
         private void OpenChild<T>(Func<T> createForm) where T : Form
         {
             foreach (Form child in MdiChildren)

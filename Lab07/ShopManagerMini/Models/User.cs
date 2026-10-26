@@ -1,8 +1,5 @@
 namespace ShopManagerMini.Models
 {
-    /// <summary>
-    /// Thông tin tài khoản đăng nhập.
-    /// </summary>
     public class User
     {
         public string Username { get; set; }

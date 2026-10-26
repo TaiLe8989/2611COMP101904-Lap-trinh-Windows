@@ -1,4 +1,4 @@
-# BÁO CÁO LAB 08 – ỨNG DỤNG PAINT ĐƠN GIẢN BẰNG WINFORMS VÀ GDI+
+# BÁO CÁO LAB 08 – ỨNG DỤNG PAINT ĐƠN GIẢN BẰNG WINFORMS VÀ GDI+  (Đã nộp 16/10 - cập nhật mới nhất 25/10)
 
 - **MSSV:** 51.01.104.087
 - **Họ và Tên:** Lê Minh Tài
