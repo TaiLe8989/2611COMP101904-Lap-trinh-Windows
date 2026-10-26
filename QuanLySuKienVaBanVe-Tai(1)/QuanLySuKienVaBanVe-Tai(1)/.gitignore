@@ -1,0 +1,52 @@
+﻿## ===================================================================
+## .gitignore - C# WinForms & SQL Server (De tai 20 - LTW HCMUE)
+## ===================================================================
+
+# 1. Thu muc Build & Bien dich (Tuyet doi khong push)
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+out/
+
+# 2. Visual Studio & User specific settings
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea/
+.vscode/
+
+# 3. NuGet packages (neu co tai goi thu vien ngoai)
+packages/
+*.nupkg
+
+# 4. Database cuc bo & File backup (Chi push script .sql trong database/)
+*.mdf
+*.ldf
+*.bak
+*.bacpac
+
+# 5. File nhap, thu muc tam & file nen ca nhan
+nhap_code*
+temp/
+backup/
+*.zip
+*.rar
+*.7z
+
+# 6. File rac he thong
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 7. File ket xuat test (in an, bao cao tam)
+reports/*.pdf
+reports/*.xlsx
+export/
+
+# 8. Bat buoc giu lai file Solution & Config
+!*.sln
+!*.slnx
+!App.config
