@@ -1,9 +1,11 @@
 # BÁO CÁO LAB 13 - BÁO CÁO SINH VIÊN BẰNG LINQ
 
-**Trường Đại học Sư phạm TP. Hồ Chí Minh - Khoa Công nghệ thông tin**
-**Học phần:** COMP1019 - Lập trình trên Windows
-**Sinh viên thực hiện:** `<Họ và tên>` - MSSV: `<MSSV>`
-**Công nghệ:** C# WinForms (.NET 8), LINQ, DataGridView, SaveFileDialog
+# 2611COMP101904 - Lập trình Windows
+- **MSSV:** 51.01.104.087
+- **Họ và Tên:** Lê Minh Tài
+- **Lớp:** 51.01.CNTT.C
+- **Nhóm:** 3
+
 
 ---
 
@@ -94,17 +96,15 @@ Form `FrmBaoCaoSinhVien` gồm:
 - Danh sách rỗng khi tính trung bình: trả về 0, tránh lỗi.
 - Chưa chọn lớp: bỏ qua, không gây lỗi null.
 
-## 9. Hướng dẫn chạy
+## 9. Ảnh mẫu thực tế 
+<img width="1141" height="642" alt="Screenshot 2026-10-27 130453" src="https://github.com/user-attachments/assets/11e3147e-adb8-4120-ac30-0d54a3793fea" />
+<img width="1137" height="652" alt="Screenshot 2026-10-27 130512" src="https://github.com/user-attachments/assets/869693ec-088d-4d5b-ba96-f1204715cc28" />
+<img width="1133" height="641" alt="Screenshot 2026-10-27 130524" src="https://github.com/user-attachments/assets/de051f2e-c7b7-41ca-8b99-92a512d0b33d" />
+<img width="1145" height="646" alt="Screenshot 2026-10-27 130535" src="https://github.com/user-attachments/assets/098f5a37-777d-4ca7-a025-abf8ef73a508" />
+<img width="1133" height="650" alt="Screenshot 2026-10-27 130651" src="https://github.com/user-attachments/assets/5bc15388-b01a-405f-af2e-083ef3c5c7cf" />
+<img width="1138" height="648" alt="Screenshot 2026-10-27 130713" src="https://github.com/user-attachments/assets/edffa5eb-dd50-45f1-b71a-8705fd2acfd9" />
+<img width="1138" height="651" alt="Screenshot 2026-10-27 130823" src="https://github.com/user-attachments/assets/45f18ce4-01b5-4f74-83de-20a8d0bb5bc0" />
+<img width="1193" height="687" alt="Screenshot 2026-10-27 130816" src="https://github.com/user-attachments/assets/9fcf72f5-aaf3-4276-8b75-97cc0dd1c2bd" />
+<img width="542" height="386" alt="Screenshot 2026-10-27 130837" src="https://github.com/user-attachments/assets/4eb40a28-46fe-40ff-b6a1-728645da039d" />
 
-1. Cài **Visual Studio 2022** với workload ".NET desktop development" (hoặc .NET 8 SDK).
-2. Mở file `StudentReportDemo.csproj`.
-3. Nhấn **F5** để chạy.
 
-## 10. Kết quả
-
-- Ảnh chụp Form sau khi lọc: `<chèn ảnh vào thư mục Screenshots và dẫn link tại đây>`
-- File báo cáo đã xuất: `<đính kèm BaoCaoSinhVien.csv / .txt>`
-
-## 11. Kết luận
-
-Bài lab đã xây dựng được module báo cáo sinh viên theo lớp, trong đó toàn bộ thao tác lọc, sắp xếp, nhóm và thống kê dùng LINQ. Code được tách thành các hàm nhỏ, tên biến và control rõ ràng, có xử lý ngoại lệ khi xuất file. Qua bài lab, em hiểu cách LINQ giúp xử lý dữ liệu ngắn gọn, dễ đọc và là nền tảng để chuyển sang ORM (LINQ to SQL, Entity Framework) ở các buổi sau.
