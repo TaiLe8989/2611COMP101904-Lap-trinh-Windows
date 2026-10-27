@@ -1,9 +1,11 @@
 # BÁO CÁO LAB 12 - DATA BINDING, STORED PROCEDURE VÀ TRANSACTION
 
-**Trường Đại học Sư phạm TP. Hồ Chí Minh - Khoa Công nghệ thông tin**
-**Học phần:** COMP1019 - Lập trình trên Windows
-**Sinh viên thực hiện:** Họ tên - MSSV
-**Giảng viên:** Lê Thanh Thoại
+# 2611COMP101904 - Lập trình Windows
+- **MSSV:** 51.01.104.087
+- **Họ và Tên:** Lê Minh Tài
+- **Lớp:** 51.01.CNTT.C
+- **Nhóm:** 3
+- **Giảng viên:** Lê Thanh Thoại
 
 ---
 
@@ -93,35 +95,9 @@ Form `FrmNhapDiemTheoLop` gồm:
 - **An toàn dữ liệu:** dùng parameter cho mọi lời gọi stored procedure; ràng buộc `CHECK` trong database là lớp bảo vệ thứ hai sau bước kiểm tra trên form.
 - **Tổ chức code:** tách ba tầng giao diện, truy cập dữ liệu và cấu hình kết nối.
 
-## 10. Kết quả kiểm thử
-
-| Trường hợp | Kết quả mong đợi |
-|---|---|
-| Mở form | ComboBox hiện đủ lớp và môn học |
-| Tải danh sách | Lưới hiện sinh viên của lớp, kèm điểm nếu đã có |
-| Nhập điểm hợp lệ rồi Lưu tất cả | Thông báo đã lưu N dòng; bảng `KETQUA` có dữ liệu mới |
-| Nhập điểm 15 hoặc chữ | Báo lỗi, không lưu |
-| Để trống điểm | Báo chưa nhập điểm, không lưu |
-| Một dòng lỗi khi đang lưu | Rollback, không dòng nào được ghi |
-
-## 11. Hướng dẫn chạy
-
-1. Mở SSMS, mở `Database/QLSinhVienLab12.sql`, nhấn Ctrl+A rồi Execute.
-2. Nếu cần, sửa `Database.ConnectionString` trong `DAL/Database.cs` cho đúng tên server.
-3. Mở `QLSinhVienLab12.csproj` bằng Visual Studio 2022 và nhấn F5.
-4. Kiểm tra dữ liệu bằng `SELECT * FROM KETQUA;` trong SSMS.
-
-## 12. Phần mở rộng
-
-- Tìm kiếm sinh viên theo mã hoặc họ tên.
-- Thống kê số sinh viên, số đã nhập điểm, số đạt (điểm từ 5 trở lên) và điểm trung bình.
-
-## 13. Ảnh chụp màn hình
-
-| Trước khi lưu | Sau khi lưu |
-|---|---|
-| ![Trước khi lưu](images/truoc-khi-luu.png) | ![Sau khi lưu](images/sau-khi-luu.png) |
-
-## 14. Kết luận
-
-Bài lab đáp ứng đầy đủ yêu cầu: tạo đúng database và stored procedure, binding dữ liệu vào ComboBox và DataGridView, kiểm tra điểm trước khi lưu, và lưu nhiều dòng bằng transaction có rollback khi lỗi. Qua bài lab, em nắm được cách phối hợp `DataTable`, `BindingSource`, stored procedure và transaction để xây dựng chức năng nhập dữ liệu hàng loạt an toàn.
+## 10. Ảnh mẫu thực tế 
+<img width="862" height="590" alt="Screenshot 2026-10-26 003944" src="https://github.com/user-attachments/assets/3de299a5-479d-4c7f-b27e-34a965ef6090" />
+<img width="867" height="600" alt="Screenshot 2026-10-26 004028" src="https://github.com/user-attachments/assets/51191beb-335f-4d8f-953f-884f074ed0a9" />
+<img width="871" height="601" alt="Screenshot 2026-10-26 004041" src="https://github.com/user-attachments/assets/f38b136d-4f84-487c-b5ae-3b5ff7328fdb" />
+<img width="632" height="375" alt="Screenshot 2026-10-26 003925" src="https://github.com/user-attachments/assets/25c209c9-61af-4076-bfed-f10e58d857be" />
+<img width="733" height="380" alt="Screenshot 2026-10-26 003918" src="https://github.com/user-attachments/assets/7c52ca13-d478-4afd-b461-d2615f2f3130" />
